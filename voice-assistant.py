@@ -69,10 +69,10 @@ def run_alexa():
         talk(info)
     elif 'facebook' in command:
         speaker.speak('opening ')
-        wb.open('https://www.facebook.com/thebackspacetext/')
+        wb.open('https://www.facebook.com/')
     elif 'instagram' in command:
         speaker.speak('opening ')
-        wb.open('https://www.instagram.com/thebackspacetext/')
+        wb.open('https://www.instagram.com/')
     elif 'date' in command:
         talk('sorry, I have a headache')
     elif 'are you single' in command:
